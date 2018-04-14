@@ -58,7 +58,7 @@ rm -f $RPM_BUILD_ROOT/%{_bindir}/ftdump
 %{_bindir}/*
 
 %files -n libfdt
-%{_libdir}/libfdt-%{version}.so
+%{_libdir}/libfdt-*.so
 %{_libdir}/libfdt.so.*
 
 %files -n libfdt-devel
